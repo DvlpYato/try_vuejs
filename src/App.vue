@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <navber></navber>
     <img alt="Vue logo" src="./assets/logo.png" />
     <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
     <div class="row">
@@ -16,9 +17,10 @@
 </template>
 
 <script>
+import Navber from "./components/template/navber.vue";
 export default {
   name: "App",
-  components: {},
+  components: { Navber },
 };
 </script>
 
@@ -29,6 +31,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
