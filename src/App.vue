@@ -11,7 +11,6 @@
         <router-link to="/page2" class="btn btn-success">Page2</router-link>
       </div>
     </div>
-
     <router-view></router-view>
   </div>
 </template>
